@@ -180,5 +180,19 @@
             </plugin>
         </plugins>
     </build>
-
+<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>java-e-commerce-app-release	</name>
+	      <url>http://13.127.72.189:9036/repository/java-e-commerce-app-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>java-e-commerce-app-snapshot</name>
+	      <url>http://13.127.72.189:9036/repository/java-e-commerce-app-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 </project>
